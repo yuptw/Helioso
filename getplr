@@ -1,0 +1,8 @@
+x = 1
+    Plyr = game.Players:GetPlayers()
+    dropdown = {}
+    for value in pairs(Plyr) do
+        PLR = Plyr[x].Name
+        x += 1 
+        table.insert(dropdown, PLR)
+    end
